@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>English Tense Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🎯 English Tense Quiz</h1>
+    <p>Test your knowledge of English tenses in a fun way!</p>
+  </header>
+
+  <main>
+    <!-- Simple Present -->
+    <section class="quiz-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/201/201623.png" alt="Simple Present icon">
+      <h2>Simple Present</h2>
+
+      <div class="question" data-correct="1">
+        <p>Do you like pizza?</p>
+        <label><input type="radio" name="q1"> Yes, I did.</label>
+        <label><input type="radio" name="q1"> Yes, I do.</label>
+        <label><input type="radio" name="q1"> Yes, I am.</label>
+        <label><input type="radio" name="q1"> Yes, I was.</label>
+      </div>
+    </section>
+
+    <!-- Simple Past -->
+    <section class="quiz-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/2821/2821637.png" alt="Simple Past icon">
+      <h2>Simple Past</h2>
+
+      <div class="question" data-correct="1">
+        <p>Did you watch TV yesterday?</p>
+        <label><input type="radio" name="q2"> Yes, I watch TV.</label>
+        <label><input type="radio" name="q2"> Yes, I watched TV.</label>
+        <label><input type="radio" name="q2"> I am watching TV.</label>
+        <label><input type="radio" name="q2"> Yes, I was watching TV.</label>
+      </div>
+    </section>
+
+    <!-- Botão -->
+    <button id="submitBtn">🚀 Submit Answers</button>
+    <div id="progress-bar"><div></div></div>
+    <div id="result"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
